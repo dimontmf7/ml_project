@@ -17,6 +17,6 @@
 ## Установка
 
 ```bash
-git clone https://github.com/dimontmf7/ml_Project.git
+git clone https://github.com/dimontmf7/ml_project.git
 cd ml_Project
 pip install -r requirements.txt
