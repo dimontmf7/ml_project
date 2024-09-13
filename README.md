@@ -18,5 +18,5 @@
 
 ```bash
 git clone https://github.com/dimontmf7/ml_project.git
-cd ml_Project
+cd ml_project
 pip install -r requirements.txt
