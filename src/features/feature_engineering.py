@@ -10,6 +10,7 @@ def create_features(data):
     Returns:
         pd.DataFrame: Данные с новыми признаками.
     """
+    
     data['sepal_ratio'] = data['sepal lengthcm)'] / data['sepal width (cm)']
     
     return data
