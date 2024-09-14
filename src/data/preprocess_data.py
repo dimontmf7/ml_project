@@ -3,6 +3,14 @@ import pandas as pd
 
 def preprocess_data(input_filepath, output_filepath):
     
+    """
+    Предобрабатывает сырые данные и сохраняет обработанные.
+
+    Args:
+        input_filepath (str): Путь к сырым данным.
+        output_filepath (str): Путь для сохранения обработанных данных.
+    """
+    
     data = pd.read_csv(input_filepath)
     
     data = data.drop_duplicates()

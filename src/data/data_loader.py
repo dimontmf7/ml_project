@@ -1,6 +1,6 @@
 import pandas as pd
 
-def load_data():
+def load_data(filepath):
     """
 
     Returns:
